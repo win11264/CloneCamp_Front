@@ -1,0 +1,30 @@
+- `npx create-react-app project-look-and-find-lottery`
+- `npm i express`
+- `npm i axios jwt-decode react-router-dom`
+- `npm install @mui/material`
+- `npm install @emotion/react`
+- `npm install @emotion/styled`
+- `npm install nodemailer`
+- `npm install @mui/icons-material`
+- `npm install @mui/material`
+- `npm install @material-ui/core@next`
+- `npm install @material-ui/lab@next`
+- `npm i @mui/lab`
+- `npm i @date-io/date-fns`
+- `git merge --abort`
+- `git branch -a`
+- `git status`
+- `git add .`
+- `git commit -m "merge"`
+- `npm install @date-io/date-fns`
+- `npm install material-ui-colors`
+- `npm i @date-io/date-fns`
+- `npm i @material-ui/pickers`
+- `npm i @material-ui/lab`
+- `npm install @mui/styles`
+- `npm i date-fns@next @date-io/date-fns`
+- `npm i react-load-script`
+- `npm i embla-carousel`
+
+- `npm install embla-carousel-react --save`
+- `npm i react-google-button`

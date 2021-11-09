@@ -1,0 +1,60 @@
+.certificateController {
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.divMainControllerCertificate {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cloneCampHeader {
+    text-align: center;
+    top: 12%;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.5em;
+    width: 100%;
+    /* background-color: tomato; */
+}
+
+.cloneCampName {
+    text-align: center;
+    top: 37%;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.5em;
+    width: 100%;
+    /* background-color: tomato; */
+}
+
+.cloneCampCompleteDate {
+    text-align: center;
+    top: 65%;
+    padding-left: 120px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1em;
+    width: 50%;
+    /* background-color: tomato; */
+}
+
+.cloneCampSignature {
+    text-align: center;
+    right: 0;
+    top: 65%;
+    padding-right: 120px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1em;
+    width: 50%;
+    /* background-color: tomato; */
+}

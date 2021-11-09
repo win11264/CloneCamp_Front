@@ -1,0 +1,102 @@
+.MyProfileTop {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 30px;
+  width: 100%;
+}
+
+.divMyProfileBottom {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  margin: 30px;
+  width: 100%;
+}
+
+.MyProfileAvatar {
+  cursor: pointer;
+}
+
+.MyProfileH1 {
+  margin: auto;
+  margin-left: 50px;
+}
+
+.grayLine {
+  margin: auto;
+  background-color: rgb(179, 176, 176);
+  width: 80%;
+  height: 1px;
+}
+
+.MyProfileConTroller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0px 30px 0px 30px;
+}
+
+.divButtonList {
+  margin: 30px;
+}
+
+.divMyProfileDetailController {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.divMyProfileH2 {
+  margin: 0px;
+  padding: 0px;
+  color: #03045e;
+  margin-left: 40px;
+}
+
+.divChangeDetail {
+  width: 100%;
+}
+
+.mainDivController {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 30px 30px 0px 30px;
+  min-height: 600px;
+}
+
+.inputImageProfile {
+  width: 150px;
+  height: 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 200px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  z-index: 1000;
+  /* display: none; */
+  visibility: hidden;
+}
+
+.inputImageProfileLabel {
+  /* background-color: lawngreen; */
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  position: absolute;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+.spanStatusUploadImage {
+  position: absolute;
+  z-index: 1002;
+}

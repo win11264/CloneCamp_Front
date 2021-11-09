@@ -1,0 +1,16 @@
+.divCreateCardInstructorController {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    justify-self: center;
+    background-color: #f5f5f5;
+    align-items: center;
+}
+
+.createImageInstructorCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

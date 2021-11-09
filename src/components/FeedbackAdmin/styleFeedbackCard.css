@@ -1,0 +1,42 @@
+.FeedbackCardBody-done {
+  display: flex;
+  flex-direction: column;
+  box-shadow: gray 0px 0px 5px;
+  width: 450px;
+  height: auto;
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: lightgreen;
+}
+
+.FeedbackCardBody-undone {
+  display: flex;
+  flex-direction: column;
+  box-shadow: gray 0px 0px 5px;
+  width: 450px;
+  height: auto;
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: lightpink;
+}
+
+.divDetailCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.topic {
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.resolveBtn {
+  cursor: pointer;
+  color: mediumblue;
+  border: 2px solid mediumblue;
+  border-radius: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+}

@@ -1,0 +1,19 @@
+.divMyProfileH3P {
+  display: flex;
+  flex-direction: row;
+  color: #03045e;
+  margin-bottom: 5px;
+}
+
+.divMyProfileH3 {
+  font-size: 16px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.formEditProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}

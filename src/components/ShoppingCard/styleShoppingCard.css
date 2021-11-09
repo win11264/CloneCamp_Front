@@ -1,0 +1,411 @@
+.divMainShoppingCardController {
+  display: flex;
+  flex-direction: column;
+}
+
+.divMainHeaderShoppingCard {
+  /* margin-left: 50px; */
+  min-height: 400px;
+  /* padding-left: 50px; */
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.textOnShoppingCardBannerControl {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 550px;
+  color: aliceblue;
+  height: 100px;
+}
+
+.ShoppingCardH3 {
+  font-size: 2.4rem;
+}
+
+.ShoppingCardH4 {
+  font-size: 1.5rem;
+}
+
+.ShoppingCardH4Control {
+  display: flex;
+  flex-direction: row;
+}
+
+.ShoppingCardP {
+  /* font-size: 1.25rem; */
+  font-size: 1.1rem;
+}
+
+.nevBarInShoppingCard {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #03045e;
+}
+
+.aboutThisCourseControl {
+  width: 75%;
+  margin-left: 50px;
+}
+
+.aboutThisCourseH4 {
+  font-size: 2rem;
+  font-weight: 600;
+
+  color: #03045e;
+}
+
+.aboutThisCourseP {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #03045e;
+}
+
+.skillYouWillLearnTag {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0px 50px 0px 50px;
+}
+
+.skillYouWillLearnTagController {
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+  color: gray;
+}
+
+/* .css-ch83q6-MuiSvgIcon-root {
+    margin: 0;
+    padding: 0;
+} */
+
+.skillYouWillLearnPControl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.grayLine {
+  height: 2px;
+  background-color: gray;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.skillYouWillLearnConTrol {
+  margin-left: 50px;
+}
+
+.divSyllabusCourseContent {
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.divInstructorController {
+  margin-left: 50px;
+}
+
+.divStudentFeedbackControl {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.divLeftStudentFeedback {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.divRightStudentFeedback {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.barRating {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: auto;
+  width: 100%;
+}
+
+.divBarRatingControl {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.BarRatingCombine {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+}
+
+.BarRatingLeft {
+  height: 20px;
+  background-color: #03045e;
+  width: 50%;
+}
+
+.BarRatingRight {
+  height: 20px;
+  background-color: #caf0f8;
+  width: 50%;
+}
+
+.BarRatingScore {
+  display: flex;
+  flex-direction: row;
+}
+
+.BarRatingScoreP {
+  padding: 0;
+  margin: 0;
+}
+
+.BarRatingScoreP--space {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  width: 10px;
+}
+
+.divStudentFeedback {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.CountReviews {
+  display: flex;
+  flex-direction: row;
+  color: #03045e;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.divStudentFeedbackH1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #03045e;
+  margin: 0;
+}
+
+.divStudentFeedbackComment {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.OutputFilterByRatingControl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #caf0f8;
+  padding: 15px;
+  color: #03045e;
+  padding-top: 5px;
+
+  margin-top: 10px;
+}
+
+.OutputFilterByRatingScore {
+  display: flex;
+  flex-direction: row;
+}
+
+.OutputFilterByRatingScoreP {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.OutputFilterByRatingScoreH4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #03045e;
+  padding: 0;
+  margin: 0;
+}
+
+/* .css-i4bv87-MuiSvgIcon-root {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+} */
+
+.FiberManualRecordIconControl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+
+.FiberManualRecordIconGreen {
+  margin: 0px;
+  padding: 0px;
+}
+
+.OutputFilterByRatingName {
+  margin: 0;
+  padding: 0;
+}
+
+.FiberManualRecordIconRed,
+.FiberManualRecordIconGreen {
+  margin: 0;
+  padding: 0;
+}
+
+.SeeMoreControl {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+}
+
+.SeeMoreP {
+  cursor: pointer;
+  margin: 0;
+}
+
+.divMoreFrontEndCourse {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 50px;
+  align-items: center;
+  /* background-color: #caf0f8; */
+}
+
+.divMoreFrontEndCourseHeader {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.PriceControl {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.grayLineMini {
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  margin-top: -25px;
+  margin-bottom: 5px;
+  z-index: 1000;
+}
+
+.PriceDetail {
+  margin-left: 15px;
+}
+
+.ShoppingCardPriceH2 {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.PriceDetailP {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.SellOffDurationDate {
+  margin-left: 15px;
+}
+
+.SellOffDurationDateP {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.ShoppingCardPriceButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.ThisCourseIncludes {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.ThisCourseIncludesH4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #03045e;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.ThisCourseIncludesP {
+  margin: 5px;
+}
+
+.ShoppingCardIframeControl {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.ShoppingCardFixed {
+  position: fixed;
+  right: 2vw;
+  top: 15vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 10px #000000;
+  padding: 10px;
+}
+
+/* .Config.css-i4bv87-MuiSvgIcon-root {
+    position: relative;
+} */
+
+.ratingButton {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.courseCatController {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

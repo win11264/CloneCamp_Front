@@ -1,0 +1,75 @@
+.ourCourseBanner {
+  width: 100%;
+}
+
+.ourCourseBanner > img {
+  width: 100%;
+  height: 400px;
+}
+
+.h1OurTeam {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  color: #fff;
+  font-size: 60px;
+}
+
+.OurTeamSearch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.buttonSelectOurTeam {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.searchBarOurTeam {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #caf0f8;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.outputSearchFieldOurTeam {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.inputSearchTextOurTeam {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchBySelectOurTeam {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+}
+
+.OrderByOurTeamP {
+  width: 100px;
+}
+
+.divPaginationSearchOurTeam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.divMainControllerOurTeam {
+  min-height: 600px;
+}

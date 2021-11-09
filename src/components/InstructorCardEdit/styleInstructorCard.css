@@ -1,0 +1,41 @@
+.cardInstructorBody {
+    display: flex;
+    flex-direction: row;
+    box-shadow: gray 0px 0px 5px;
+    width: 350px;
+    height: auto;
+    padding: 5px;
+    margin: 5px 15px 15px 15px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.divInstructorImage {
+    width: 150px;
+    height: 150px;
+
+    margin-right: 5px;
+}
+
+.h2InstructorCard,
+.pInstructorCard {
+    margin: 0;
+    font-size: small;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.divDetailInstructorCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.divInstructorName {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 15px;
+}

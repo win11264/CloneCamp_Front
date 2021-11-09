@@ -1,0 +1,172 @@
+.divMainInstructorCardController {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divMainHeaderInstructorCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    margin: 0px;
+}
+
+.textOnInstructorCardBannerControl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 450px;
+    color: aliceblue;
+
+}
+
+.InstructorCardH3 {
+    font-size: 2rem;
+
+}
+
+.InstructorCardH4Control {
+    display: flex;
+    flex-direction: row;
+}
+
+.InstructorCardH4 {
+    font-size: 1.50rem;
+}
+
+.InstructorCardP {
+    font-size: 1.25rem;
+
+}
+
+.InstructorCardContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.InstructorCardContentLeft {
+    width: 60%;
+}
+
+.aboutThisMeControl {
+    width: 80%;
+    margin-left: 50px;
+}
+
+.aboutThisMeH4 {
+    font-size: 2rem;
+    font-weight: 600;
+
+    color: #03045E;
+}
+
+.aboutThisMeP {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #03045E;
+}
+
+.grayLine {
+    height: 2px;
+    background-color: gray;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.divMoreFrontEndCourse {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.divMoreFrontEndCourseHeader {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.InstructorCardCourseCardControl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.SeeMoreControl {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+}
+
+.SeeMoreP {
+    cursor: pointer;
+    margin: 0;
+}
+
+.divMoreFrontEndInstructor {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.InstructorCardContentRight {
+    width: 40%;
+
+}
+
+
+
+.grayLineRight {
+    height: 2px;
+    background-color: gray;
+    width: 100%;
+
+}
+
+.InstructorCardContentRightButton {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.AreaOfExpertiseTagControllerP {
+    margin: 5px;
+}
+
+.AreaOfExpertiseTagController {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.AreaOfExpertiseTagController {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.courseCatControllerIns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}

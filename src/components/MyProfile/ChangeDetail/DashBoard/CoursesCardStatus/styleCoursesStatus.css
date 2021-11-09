@@ -1,0 +1,66 @@
+.divCoursesCardStatus {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin: 0 auto;
+  margin: 5px;
+}
+
+.coursesCardStatusDetail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.coursesCardStatusDetailTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coursesCardStatusDetailTopH4 > h4 {
+  width: 100%;
+}
+
+.coursesCardStatusDetailBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coursesCardStatusControl {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.coursesCardStatusControl > img {
+  width: 150px;
+  height: 150px;
+}
+
+.bottomCardDetail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.bottomCardDetail > p > span {
+  width: auto;
+  font-size: 14px;
+  color: #0077b6;
+}
+
+.grayLine {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.Card--margin {
+  margin: 15px auto;
+}

@@ -1,0 +1,229 @@
+.cardBody {
+  display: flex;
+  flex-direction: row;
+  box-shadow: gray 0px 0px 5px;
+  width: 430px;
+  height: auto;
+  margin: 5px 15px 15px 15px;
+  cursor: pointer;
+  position: relative;
+  /* padding: 5px 0; */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.divCourseImage {
+  width: 170px;
+  height: 170px;
+
+  margin-right: 5px;
+}
+
+.h2CourseCard,
+.pCourseCard {
+  margin: 0;
+  font-size: small;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.divDetailCourseCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.divCourseName {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.threeTagControl {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+
+.frontEnd {
+  width: 100%;
+  height: 100%;
+  background-color: #00bcd4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backEnd {
+  width: 100%;
+  height: 100%;
+  background-color: #ff9800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uxUi {
+  width: 100%;
+  height: 100%;
+  background-color: #9c27b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divCourseDetail {
+  width: 60%;
+}
+
+.saleLineRed {
+  height: 1px;
+  width: 100%;
+  background-color: red;
+  margin-top: -10px;
+}
+
+.saleRedLineController {
+  display: flex;
+  flex-direction: column;
+}
+
+.saleRedLineController2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.saleRedLineController {
+  margin-right: 5px;
+}
+
+.pCourseCard.divRed {
+  color: red;
+}
+
+.divDiscountRateTag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divCourseNameH4 {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#content {
+  margin: 10px auto;
+  background: #f7f7f1;
+  height: 200px;
+  width: 70%;
+  /*border-radius*/
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.discount-label {
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: left;
+
+  width: 50px;
+  -webkit-border-radius: 0 4px 0 4px;
+  -moz-border-radius: 0 4px 0 4px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.discount-label:after {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: rgba(136, 183, 213, 0);
+
+  border-width: 20px;
+  top: 50%;
+  margin-top: -20px;
+}
+
+.discount-label:before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  top: 42%;
+  right: 100%;
+  width: 7px;
+  height: 7px;
+  opacity: 0.95;
+  background: #ffffff;
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0.5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0.5px 0 rgba(0, 0, 0, 0.6);
+}
+
+.discount-label span {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Raleway", Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  background-color: #e80707;
+}
+
+.red:after {
+  border-right-color: #e80707;
+}
+
+.blue {
+  background-color: #1883db;
+}
+
+.blue:after {
+  border-right-color: #1883db;
+}
+
+.green {
+  background-color: #16b516;
+}
+
+.green:after {
+  border-right-color: #16b516;
+}
+
+.yellow {
+  background-color: #feaa00;
+}
+
+.yellow:after {
+  border-right-color: #feaa00;
+}
+
+.gray {
+  background-color: #737373;
+}
+
+.gray:after {
+  border-right-color: #737373;
+}
+
+.black {
+  background-color: #000;
+}
+
+.black:after {
+  border-right-color: #000;
+}

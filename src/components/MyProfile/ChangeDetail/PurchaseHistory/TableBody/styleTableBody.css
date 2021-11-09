@@ -1,0 +1,30 @@
+.tableBodyPurchaseHistory {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: solid 1px #03045E;
+    color: #03045E;
+}
+
+.tableBody1 {
+    width: 15%;
+    text-align: center;
+}
+
+.tableBody2 {
+    width: 15%;
+    text-align: center;
+}
+
+.tableBody3 {
+    width: 55%;
+    text-align: center;
+}
+
+
+.tableBody4 {
+    width: 15%;
+    text-align: center;
+}

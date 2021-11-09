@@ -1,0 +1,8 @@
+.homeBanner {
+  width: 1500px;
+  height: 650px;
+  /* background-color: wheat; */
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}

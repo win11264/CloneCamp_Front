@@ -1,0 +1,29 @@
+.tablePurchaseHistory {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #CAF0F8;
+    border: solid 1px #03045E;
+    color: #03045E;
+}
+
+.tableHeader1 {
+    width: 15%;
+    text-align: center;
+}
+
+.tableHeader2 {
+    width: 15%;
+    text-align: center;
+}
+
+.tableHeader3 {
+    width: 55%;
+    text-align: center;
+}
+
+
+.tableHeader4 {
+    width: 15%;
+    text-align: center;
+}

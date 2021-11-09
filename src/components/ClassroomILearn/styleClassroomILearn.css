@@ -1,0 +1,174 @@
+/* รับค่า ความคืบหน้าการเรียนเป็นสองค่า ค่าtotalทั้งหมดในclass กับค่าที่เรียนเสร็จแล้ว  นำมาคำนวนเป็น 0. */
+.divLessonList {
+  width: 30%;
+}
+
+.divRightClassroomILearn {
+  width: 70%;
+  justify-content: center;
+}
+
+/* .css-10hburv-MuiTypography-root {
+    text-align: center;
+    color: #03045E;
+}
+
+.css-ishquk-MuiButtonBase-root-MuiListItemButton-root {
+  padding-left: 0px;
+}
+
+.css-1mk9mw3-MuiList-root {
+  padding: 0px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    position: absolute;
+    /* left: 90%; */
+/* } */
+
+*/ .divLessonList > h3 {
+  text-align: center;
+  background-color: #03045e;
+  color: #fff;
+}
+
+.ClassroomILearnH3 {
+  text-align: center;
+  color: white;
+  background-color: #03045e;
+  width: 100%;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mainDivClassroomILearn {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+}
+
+.iframeClassroomVideo {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.VideoClassroomController {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.mainDivControllerContentRightClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navBarContentRightClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  box-shadow: 0px 0px 5px #03045e;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.textLabelContentRightClass {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.lineCompleteController {
+  display: flex;
+  border-radius: 50px;
+  width: 80%;
+  flex-direction: row;
+  box-shadow: rgb(59, 58, 59) 3px;
+  margin: auto;
+  margin-bottom: 10px;
+  align-items: center;
+  border: gray solid 2px;
+  height: 20px;
+}
+
+.lineCompleteStatus {
+  height: 20px;
+  width: 50%;
+  background-color: #03045e;
+  margin: auto;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.lineCompleteStatusSuccess {
+  height: 20px;
+  width: 50%;
+  background-color: #0077b6;
+  border-radius: 10px 0px 0px 10px;
+  margin: auto;
+}
+
+.lineWhiteCompleteStatusSuccess {
+  width: 5px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.divLabelPercentComplete {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.divControlButtonBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quizTop {
+  display: flex;
+  flex-direction: row;
+}
+
+.divChoiceQuiz {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* .css-6cf1jz-MuiButtonBase-root-MuiToggleButton-root {
+    padding: 0px;
+} */
+
+.quizH4,
+.quizP {
+  padding: 0px;
+  margin-right: 5px;
+}
+
+.Choice1,
+.Choice2,
+.Choice3,
+.Choice4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* .css-keslas-MuiButtonBase-root-MuiToggleButton-root {
+    padding: 0px;
+} */
